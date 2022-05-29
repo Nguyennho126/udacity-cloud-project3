@@ -23,3 +23,7 @@ kubectl describe hpa
 ```bash
 kubectl logs {pod_name}
 ```
+# Assuming the endpoint is: mypostgres-database-1.c5szli4s4qq9.us-east-1.rds.amazonaws.com
+psql -h database-test.ci2hgdo3q77a.ap-southeast-1.rds.amazonaws.com -U postgres postgres
+# It will open the "postgres=>" prompt if the connection is successful.
+# Provide the database password when prompted.
